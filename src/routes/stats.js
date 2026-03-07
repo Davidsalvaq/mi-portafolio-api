@@ -7,7 +7,7 @@ const auth = require('../middleware/auth')
 let statsData = {
   years_coding: 1,
   commitment: '100%',
-  coffees: 999
+  coffees: 999 
 }
 
 // GET estadísticas públicas
