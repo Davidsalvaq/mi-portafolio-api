@@ -5,9 +5,9 @@ const auth = require('../middleware/auth')
 
 // Valores por defecto en memoria (se pueden actualizar via admin)
 let statsData = {
-  years_coding: 1,
+  years_coding: 2,
   commitment: '100%',
-  coffees: 999 
+  
 }
 
 // GET estadísticas públicas
