@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI)
 // Rutas
 app.use('/api/projects', require('./routes/projects'))
 app.use('/api/auth', require('./routes/auth'))
-
+app.use('/api/stats', require('./routes/stats'))
 // Ruta de prueba
 app.get('/', (req, res) => {
   res.json({ message: '🚀 API de portafolio funcionando' })
